@@ -1,0 +1,1 @@
+Assets werden automatisch via `npm install` generiert (scripts/bootstrap-assets.mjs).

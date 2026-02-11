@@ -1,0 +1,10 @@
+{
+  "framework": "nextjs",
+  "buildCommand": "npm run build",
+  "installCommand": "npm install",
+  "regions": ["fra1"],
+  "functions": {
+    "src/app/api/**/route.ts": { "maxDuration": 30, "memory": 1024 },
+    "src/app/api/stripe/webhook/route.ts": { "maxDuration": 60, "memory": 2048 }
+  }
+}
